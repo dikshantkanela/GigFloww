@@ -66,12 +66,21 @@ function App() {
         
       </div>
     </nav>
-    {/* Main */}
+    {/* Main */}fixes
     <main>
       {/* Hero */}
-      <div id="hero" className='bg-red-600 min-h-screen'>
+      <div id="hero" className='min-h-screen bg-gradient-to-br from-purple-50 via-orange-50 to-transparent'>
 
+        <div id="hero-container" className='max-w-4xl mx-auto flex flex-col px-6 pb-32'>
+         <div id="version-text" className='flex flex-row items-center  bg-yellow-50 rounded-lg border border-yellow-300 my-6 gap-2 px-3 py-1 w-fit'>
+          <div className='w-2 h-2 rounded-full bg-yellow-400 border border-yellow-600'></div>
+          <p className='font-display'>v0.21.1 : <span>Find-in-page- bug fixes</span> </p>
+          <FontAwesomeIcon className='text-yellow-600' icon={faArrowRight}/>
+         </div>
+        </div>
+        
       </div>
+     
     </main>
     </>
   )
